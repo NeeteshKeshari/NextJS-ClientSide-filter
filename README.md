@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+![image](https://github.com/NeeteshKeshari/NextJS-ClientSide-filter/assets/13819130/07604f23-3147-4ef2-a96e-bf0335043019)
+
+![image](https://github.com/NeeteshKeshari/NextJS-ClientSide-filter/assets/13819130/61e7957d-33e6-4801-8d69-76584087ee1a)
+
+![image](https://github.com/NeeteshKeshari/NextJS-ClientSide-filter/assets/13819130/b952ceed-e6f0-44c5-b7a5-388283847fa8)
+
 ## Getting Started
 
 First, run the development server:
