@@ -1,0 +1,12 @@
+.efInputWrapper {
+	@apply relative w-full border border-lightgrey rounded-md px-3 pt-3.5 pb-2.5 shadow-md;
+}
+.efInputLabel {
+	@apply text-[10px] w-full block font-semibold text-lightdark;
+}
+.efInput {
+	@apply placeholder:text-offwhite uppercase w-[85%] focus:outline-none rounded-md text-base md:text-lg font-bold;
+}
+.efInputIcon {
+	@apply text-xl absolute right-3 text-lightdark top-6;
+}

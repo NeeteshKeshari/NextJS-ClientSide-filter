@@ -1,0 +1,13 @@
+.efFlightAnimation {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	transform: translate(-100%, 100%);
+	animation: moveImage 2s ease-in-out forwards;
+}
+
+@keyframes moveImage {
+	to {
+	transform: translate(100%, -110%);
+	}
+}

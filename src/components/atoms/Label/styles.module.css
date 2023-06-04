@@ -1,0 +1,3 @@
+.efInputLabel {
+	@apply text-[10px] w-full block font-semibold text-lightdark uppercase;
+}

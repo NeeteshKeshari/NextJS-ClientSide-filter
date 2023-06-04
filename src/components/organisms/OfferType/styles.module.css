@@ -1,0 +1,23 @@
+.efInputWrapper {
+	@apply relative w-full border border-lightgrey rounded-md px-3 pt-3.5 pb-2.5 shadow-md;
+}
+.efInputLabel {
+	@apply text-[10px] w-full block font-semibold text-lightdark;
+}
+.efOfferTypeList {
+	@apply absolute flex flex-col gap-2 bg-light -left-[1px] top-[60px] border border-lightgrey z-[1] border-t-0 rounded-b-md w-[calc(100%+2px)];
+}
+.efOfferTypeLabel{
+	@apply flex flex-row gap-2 cursor-pointer text-lightdark hover:text-primary;
+}
+.efOfferType {
+	@apply border-b px-3 pb-1.5 border-lightgrey;
+}
+
+.efOfferType_active {
+	@apply border-b px-3 pb-1.5 border-lightgrey;
+}
+
+.efOfferType_active span, .efOfferType_active span svg {
+	@apply text-primary;
+}

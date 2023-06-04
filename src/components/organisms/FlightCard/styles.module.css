@@ -1,0 +1,12 @@
+.efTicketWrapper {
+	@apply p-3 w-full sm:w-[calc(50%-10px)] shadow-sm cursor-pointer hover:shadow-md focus:shadow-md lg:w-[calc(33%-12px)] xl:w-[calc(25%-15px)] 2xl:max-w-[calc(20%-16px)] transition-all duration-500 bg-[#f7f7f7] rounded-lg relative before:w-4 before:h-4 before:absolute before:-left-2 before:top-[62px] before:bg-light before:rounded-full after:w-4 after:h-4 after:absolute after:-right-2 after:top-[62px] after:bg-light after:rounded-full;
+}
+.efTicketRoot {
+	@apply border border-lightdark p-1 rounded-full w-1 h-1 block relative before:w-1 before:h-1 before:absolute before:bg-lightdark before:left-[2px] before:top-[2px] before:rounded-full;
+}
+.efTicketPlane {
+	@apply text-center relative w-full flex flex-row justify-center text-lightdark before:border-dotted before:border-t before:absolute before:top-[7px] before:w-full;
+}
+.efTicketWrapper:hover .efTicketPlane {
+	@apply justify-end text-primary;
+}

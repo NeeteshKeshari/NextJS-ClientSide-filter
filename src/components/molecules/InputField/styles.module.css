@@ -1,0 +1,6 @@
+.efInputWrapper {
+	@apply relative w-full border border-lightgrey rounded-md px-3 pt-3.5 pb-2.5 shadow-md;
+}
+.efInputIcon {
+	@apply text-xl absolute right-3 text-lightdark top-6;
+}
